@@ -1,0 +1,31 @@
+.results-list {
+    position: absolute;
+    top: 16.4%;
+    margin-left: 12.5%;
+    background-color: white;
+    border: 1px solid #000000;
+    border-top: none;
+    border-radius: 0 0 5px 5px ;
+    max-height: 150px;
+    max-width: 140px;
+    overflow-y: auto;
+    z-index: 1;
+}
+.results-list div {
+    padding: 5px;
+    cursor: pointer;
+}
+#searchCuisine{
+    height: 30px;
+}
+#result_plates{
+    max-height: 100px;
+    max-width: 150px;
+    border:1px solid black ;
+    margin-left: 10px;
+}
+
+.choix_cuisine{
+    display: flex;
+    flex-direction: row;
+}
