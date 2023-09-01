@@ -24,7 +24,12 @@
     border:1px solid black ;
     margin-left: 10px;
 }
-
+#result_plates2{
+    max-height: 100px;
+    max-width: 150px;
+    border:1px solid black ;
+    margin-left: 10px;
+}
 .choix_cuisine{
     display: flex;
     flex-direction: row;

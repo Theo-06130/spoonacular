@@ -13,9 +13,10 @@
 <body>
  <h1>Spoonacular</h1>
  <div class="choix_cuisine">
-     <label for="country_cuisine">choisissez un pays d'origine:</label>
+     <label for="searchCuisine">choisissez un pays d'origine:</label>
      <input type="text" id="searchCuisine" placeholder="Rechercher une option">
      <div id="resultsList" class="results-list"></div>
+     <label for="country_cuisine" style="display: none"></label>
      <select name="cuisine" id="country_cuisine" style="display: none">
          <option value="African">African</option>
          <option value="Asian">Asian</option>
@@ -46,6 +47,7 @@
          <option value="Vietnamese">Vietnamese</option>
      </select>
      <div id="result_plates"></div>
+     <div id="result_plates2"></div>
  </div>
 
 </body>
