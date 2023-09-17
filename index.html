@@ -6,15 +6,27 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
     <title>spoonacular</title>
 </head>
 
 <body>
+<div class="fond"><img src="waves.svg" alt=""></div>
+<div id="bubble1"></div>
+<div id="bubble2"></div>
+<div id="bubble3"></div>
+<div id="bubble4"></div>
+<div id="bubble5"></div>
  <h1>Spoonacular</h1>
  <div class="choix_cuisine">
-     <label for="searchCuisine">choisissez un pays d'origine:</label>
-     <input type="text" id="searchCuisine" placeholder="Rechercher une option">
+     <svg id="search_svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+         <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+     </svg>
+     <input type="text" id="searchCuisine" placeholder="Rechercher un pays d'origine">
      <div id="resultsList" class="results-list"></div>
      <label for="country_cuisine" style="display: none"></label>
      <select name="cuisine" id="country_cuisine" style="display: none">
@@ -46,8 +58,21 @@
          <option value="Thai">Thai</option>
          <option value="Vietnamese">Vietnamese</option>
      </select>
-     <div id="result_plates"></div>
-     <div id="result_plates2"></div>
+ </div>
+ <div class="card_result">
+     <div class="card1">
+         <div id="img_card1"></div>
+         <div class="round_plates">
+             <div id="result_plates"></div>
+         </div>
+     </div>
+     <div class="card2">
+         <div id="img_card2"></div>
+         <div class="round_plates">
+             <div id="result_plates2"></div>
+         </div>
+     </div>
+
  </div>
 
 </body>

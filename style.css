@@ -1,7 +1,24 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vw;
+    overflow: hidden;
+}
+
+.fond>img{
+    width: 100vw;
+    height: 120px;
+    position: absolute;
+    bottom: -40px;
+    background: #CDDC39;
+    z-index: -3;
+}
+
 .results-list {
     position: absolute;
-    top: 16.4%;
-    margin-left: 12.5%;
+    top: 16.5%;
+    left: 36%;
     background-color: white;
     border: 1px solid #000000;
     border-top: none;
@@ -16,21 +33,158 @@
     cursor: pointer;
 }
 #searchCuisine{
+    width: 30%;
     height: 30px;
+    border-color: red;
+    border-radius: 5px;
+}
+
+#searchCuisine::placeholder{
+    position: relative;
+    left: 25px;
+}
+
+
+
+#search_svg{
+    margin-top: 7px;
+    left: 25px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    transition: 0.5s;
+}
+.round_plates{
+    position: relative;
+    left: -5px;
+    top: -240px;
+    min-height: 60%;
+    min-width: 105%;
+    background-color: #CDDC39;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 20px;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+
+.round_plates:hover{
+    opacity: 0;
 }
 #result_plates{
-    max-height: 100px;
-    max-width: 150px;
-    border:1px solid black ;
-    margin-left: 10px;
+    text-align: center;
 }
+
 #result_plates2{
-    max-height: 100px;
-    max-width: 150px;
-    border:1px solid black ;
-    margin-left: 10px;
+    text-align: center ;
 }
 .choix_cuisine{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+
+
+.card1{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#img_card1{
+    border-radius: 15px;
+}
+
+#img_card2{
+    border-radius: 15px;
+}
+
+
+
+.card2{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+
+.card_result{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 400px;
+}
+
+
+#bubble1{
+    background-color: #CDDC39;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 3%;
+    left: 12%;
+    transition: 4.5s;
+    z-index:-2;
+}
+
+#bubble2{
+    background-color: #CDDC39;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 7%;
+    left: 24%;
+    transition: 2.5s;
+    z-index:-2;
+}
+
+#bubble3{
+    background-color: #CDDC39;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 7%;
+    left: 34%;
+    transition: 3.5s;
+    z-index: -2;
+}
+
+#bubble4{
+    background-color: #CDDC39;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 7%;
+    left: 65%;
+    transition: 3s;
+    z-index: -2;
+}
+
+#bubble5{
+    background-color: #CDDC39;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 4%;
+    left: 80%;
+    transition: 5s;
+    z-index: -2;
 }
