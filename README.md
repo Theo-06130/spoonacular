@@ -1,2 +1,1 @@
-# spoonacular
- test API spoonacular
+Ce projet a été réalisé pendant l'été en tant que projet personnel. Il a pour but d'apprendre à utiliser une API JavaScript (Spoonacular) afin de fournir des informations sur certains plats. Le projet est fonctionnel et peut contenir de nombreuses améliorations.
